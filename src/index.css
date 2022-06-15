@@ -7,12 +7,13 @@
 }
 
 body{
-    font-family: 'Popins',SansSerif,-apple-system;
+    /*font-family: 'Popins',SansSerif,-apple-system;*/
 }
 
 html,
 body {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 @tailwind base;
