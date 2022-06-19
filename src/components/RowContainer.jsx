@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const RowContainer = ({ flag, data, scrollValue }) => {
 
-    const rowContainer = useRef()
+    const rowContainer = useRef();
 
     useEffect(()=>{
         rowContainer.current.scrollLeft += scrollValue
